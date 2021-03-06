@@ -1,5 +1,6 @@
 rm -rf /opt/ANDRAX/bin/chisel
 rm -rf /opt/ANDRAX/chisel
+mkdir /opt/ANDRAX/chisel
 go build
 cp -Rf chisel /opt/ANDRAX/bin/chisel
 GOOS=linux GOARCH=amd64 go build -o chisel_linuxamd64
